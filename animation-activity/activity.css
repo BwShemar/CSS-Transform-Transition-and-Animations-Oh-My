@@ -3,9 +3,12 @@
   animation-name: top;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  transform: rotateZ(45deg);
+
 }
 
 .hamburger:hover > div:nth-child(2){
+  background-color: mediumvioletred;
   animation-name: middle;
   animation-duration: .1s;
   animation-fill-mode: forwards;
@@ -16,6 +19,7 @@
   animation-name: bottom;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  transform:rotateZ(-45deg);
 }
 
 nav {
